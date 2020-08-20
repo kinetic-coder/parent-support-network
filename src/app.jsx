@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './app.css';
 import logo from '../public/logo.png'; 
 import HomeView from './views/Home';
+import Routes from './Routes';
 
 class App extends React.Component {	
   render() {
@@ -14,4 +15,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Routes />, document.getElementById('root'));
