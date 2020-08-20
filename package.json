@@ -17,5 +17,11 @@
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
