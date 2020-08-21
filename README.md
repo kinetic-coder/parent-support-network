@@ -4,6 +4,13 @@ Every parent needs support in some sort or another whether it be where to take t
 
 This is a basic site using react to create a community of parents that can help provide useful information for other parents so that life can be a little easier.
 
+## Tools used
+The application has been developed using React. 
+
+The web site is setup to be hosted on GitHub pages for the time being as this is a free way of hosting the site. I've also used Jenkins to build the site and hosted this build process on https://travis-ci.org/ which allows open source projects to be built.
+
+I've used SonarCloud to monitor the quality of the code which again is free for open source projects. If your interested in using this on private projects, there is a on site version called SonarQube or if you don't want to have to manage your own servers, SonarCloud provide a paid service which is hosted in the Cloud.
+
 ## Code Quality
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=kinetic-coder_parent-support-network&metric=bugs)](https://sonarcloud.io/dashboard?id=kinetic-coder_parent-support-network)
