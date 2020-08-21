@@ -4,6 +4,7 @@ import MenuBar from '../../components/MenuBar';
 const HomeView = () => (
   
   <>
+    <MenuBar/>
     Home View
   </>
 )
